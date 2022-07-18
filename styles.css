@@ -1,0 +1,41 @@
+#alerter {
+    background-image:
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url('./alert.png');
+  background-size:cover;
+    padding: 10px;
+    margin: 10px;
+    height: 175px;
+    width:276px;
+}
+#userInput{
+border: 2px solid pink;
+border-radius: 5px;
+}
+#bread {
+    background-image: url(./bread.png);
+    background-size:cover;
+    padding: 10px;
+    margin: 10px;
+    height: 165px;
+    width: 250px;
+}
+#meats{
+    background-image: url(./meats.png);
+    background-size:cover;
+    padding: 10px;
+    margin: 10px;
+    height: 165px;
+    width: 250px;
+    color: white;
+}
+
+#toppings{
+    background-image: url(./toppings.png);
+    background-size:cover;
+    padding: 10px;
+    margin: 10px;
+    height: 165px;
+    width: 250px;
+    color: black;
+}

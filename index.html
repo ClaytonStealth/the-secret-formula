@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="alerter">
+        <div>
+            <input type="text" id="userInput" autocomplete="off" placeholder="put yo stuff here boiiiii">
+            <div>
+                <input type="submit" id="submitButton">
+            </div>
+        </div>
+    </form>
+    <form id="sandwichBuilder">
+        <div>
+            <h3 id="bread">Bread types</h3>
+            <div>
+                <label for="">SourDough</label>
+                <input id="sourDough" checked="true" type="radio" name="bread">
+            </div>
+            <div>
+                <label for="">Whole Wheat</label>
+                <input id="wholeWheat" type="radio" name="bread">
+            </div>
+            <div>
+                <label for="">White</label>
+                <input id="white" type="radio" name="bread">
+            </div>
+            <div>
+                <label for="">Garlic</label>
+                <input id="garlic" type="radio" name="bread">
+            </div>
+            <div>
+                <label for="">Cracked Wheat</label>
+                <input id="crackedWheat" type="radio" name="bread">
+            </div>
+        </div>
+
+        <div>
+            <h3 id="meats">Meat Choices</h3>
+            <div>
+                <label>Pepperoni</label>
+                <input type="checkbox" id="pepperoni">
+            </div>
+            <div>
+                <label>Ham</label>
+                <input type="checkbox" id="ham">
+            </div>
+            <div>
+                <label>Salami</label>
+                <input type="checkbox" id="salami">
+            </div>
+            <div>
+                <label>Turkey</label>
+                <input type="checkbox" id="turkey">
+            </div>
+            <div>
+                <label>Chicken Breast</label>
+                <input type="checkbox" id="chicken">
+            </div>
+        </div>
+        <div>
+            <h3 id="toppings">Toppings!</h3>
+            <div>
+                <label>Lettuce</label>
+                <input type="checkbox" id="lettuce">
+            </div>
+            <div>
+                <label>Tomato</label>
+                <input type="checkbox" id="tomato">
+            </div>
+            <div>
+                <label>Spinach</label>
+                <input type="checkbox" id="spinach">
+            </div>
+            <div>
+                <label>Banana Peppers</label>
+                <input type="checkbox" id="bananaPeppers">
+            </div>
+            <div>
+                <label>Onion</label>
+                <input type="checkbox" id="onion">
+            </div>
+        </div>
+        <div>
+            <h3>Cheeses</h3>
+            <div>
+                <label>Pepper Jack</label>
+                <input type="checkbox" id="pepperJack">
+            </div>
+            <div>
+                <label>American</label>
+                <input type="checkbox" id="american">
+            </div>
+            <div>
+                <label>Swiss</label>
+                <input type="checkbox" id="swiss">
+            </div>
+            <div>
+                <label>Colby Jack</label>
+                <input type="checkbox" id="colbyJack">
+            </div>
+            <div>
+                <label>Government Cheese</label>
+                <input type="checkbox" id="govtCheese">
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="">Name for Order</label>
+            <br>
+            <input type="text" id="sandwichOrderName" autocomplete="off" placeholder="Name for the order">
+            <div>
+                <input type="submit" id="submitOrder">
+            </div>
+        </div>
+    </form>
+
+    <form id="hairApt">
+        <div>
+            <h1>Barber Shop</h1>
+            <label for="">Pick your Appointment Date:</label>
+            <br>
+            <input type="datetime-local" id="hairDateTime">
+            <br>
+            <input type="text" id="hairInput" autocomplete="off" placeholder="Select your Barber">
+            <br>
+            <label for="">Short Hair</label>
+            <input type="radio" name="hair" id="shortHair">
+            <label for="">Long Hair</label>
+            <input type="radio" name="hair" id="longHair">
+            <div>
+                <input type="submit" id="hairButton">
+            </div>
+        </div>
+    </form>
+
+    <form id="acctSetup">
+        <div>
+            <h1>Account Creation</h1>
+            <label for="">User Name</label>
+            <br>
+            <input type="text" autocomplete="off" id="userName" placeholder="Enter userName">
+            <br>
+            <label for="">Email</label>
+            <br>
+            <input type="email" id="userEmail" autocomplete="off" placeholder="Enter Email">
+            <br>
+            <label for="">Password</label>
+            <br>
+            <input type="password" id="userPass" placeholder="Enter Password">
+            <br>
+            <label for="">Password Confirmation</label>
+            <br>
+            <input type="password" id="userPassConfirm" placeholder="Confirm Password">
+            <div>
+                <input type="submit" id="submitAcctInfo">
+            </div>
+        </div>
+
+
+
+
+
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
